@@ -10,6 +10,9 @@ workspace:
     volumes: 
       git-config: true
       ssh-key: true
+    command:
+      - npm install
+      - npm start
       
   services:
     smartide-template-node:
